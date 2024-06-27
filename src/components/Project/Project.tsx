@@ -19,13 +19,15 @@ export function Project() {
               <div className="paper-links">
               <a href="https://link.springer.com/article/10.1007/s00530-020-00726-w" target="_blank" rel="noreferrer">
                   <img src={scholarIcon} alt="Visit site" /></a>
+                <a href="https://link.springer.com/article/10.1007/s00530-020-00726-w" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
                 </a> </div>
             </header>
             <div className="body">
               <h3>Semantic Segmentation-related research</h3>
-              <p> Conducted extensive research and several projects using DL-based semantic segmentation in autonomous driving and medical imaging. The outcomes of the research were published in an international SCIE journals, such as IEEE Access and Multimedia Systems.  </p>
+              <p> Conducted extensive research and several projects using DL-based semantic segmentation in autonomous driving and medical imaging. The outcomes of the research were published in an international SCIE journals.  </p>
             </div>
-            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>TensorFlow</li> <li>Efficient Computing</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>TensorFlow</li> <li>API Gateway</li> <li>Efficient Computing</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
