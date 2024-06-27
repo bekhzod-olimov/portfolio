@@ -19,6 +19,9 @@ export function Header() {
           <span>{"<Bekhzod "}</span>
           <span>{" Olimov's"}</span>
           <span>{" Portfolio>"}</span>
+          <span>{"<올리모브 "}</span>
+          <span>{" 벡조드의"}</span>
+          <span>{" 포트폴리오>"}</span>
         </HashLink>
         <input
           onChange={toggleTheme}
