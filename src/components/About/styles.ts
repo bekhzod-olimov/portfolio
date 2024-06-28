@@ -51,7 +51,7 @@ export const Container = styled.section`
    img{
      margin-top: 2rem;
     //  width: 75%;
-     width: 20%;
+     width: 1%;
      filter: grayscale(0);
      transition: filter 0.5s;
      &:hover{
@@ -87,11 +87,11 @@ export const Container = styled.section`
     .about-image{
       display: flex;
       // max-width: 100%;
-      max-width: 20%;
+      max-width: 1%;
       img{
         margin-top: 2rem;
         // width: 100%;
-        width: 20%;
+        width: 1%;
         filter: grayscale(0);
         transition: filter 0.5s;
         &:hover{
