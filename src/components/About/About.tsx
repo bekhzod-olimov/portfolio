@@ -1,5 +1,6 @@
 import { Container } from "./styles";
-import bekhzod from "../../assets/bekhzod_ani.png";
+// import bekhzod from "../../assets/bekhzod_ani.png";
+import Illustration from "../../assets/hero_im_2.jpg"
 import pytorch from "../../assets/pytorch.svg";
 import tensorflow from "../../assets/tensorflow.svg";
 import python from "../../assets/python.svg";
@@ -102,7 +103,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.3 * 1000}>
-          <img src={bekhzod} alt="Bekhzod Olimov" />
+          <img src={Illustration} alt="Illustration" />
         </ScrollAnimation>
       </div>
     </Container>

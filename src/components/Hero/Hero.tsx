@@ -1,8 +1,7 @@
 import { BrowserRouter } from "react-router-dom"
 import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
-// import Illustration from "../../assets/hero_im_2.jpg"
-import Illustration from "../../assets/bekhzod_ani.png"
+import bekhzod from "../../assets/bekhzod_ani.png"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import kaggle from '../../assets/kaggle.svg'
@@ -71,7 +70,7 @@ export function Hero() {
       </div>
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="Illustration" />
+          <img src={bekhzod} alt="profile_pic" />
         </ScrollAnimation>
       </div>
     </Container>
