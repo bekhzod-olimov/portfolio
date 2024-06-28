@@ -45,7 +45,7 @@ export const Container = styled.section`
   
   
 
-  # profile pic
+  # hero pic
   .about-image{ 
     text-align: center;
    img{
@@ -77,7 +77,7 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 960px){
+  @media (max-width: 480px){
     display: block;
     text-align: center;
     
