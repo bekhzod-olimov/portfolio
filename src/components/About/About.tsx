@@ -1,6 +1,5 @@
 import { Container } from "./styles";
-// import bekhzod from "../../assets/bekhzod_ani.png";
-import Illustration from "../../assets/hero_im_2.jpg"
+import Illustration from "../../assets/illustration.png"
 import pytorch from "../../assets/pytorch.svg";
 import tensorflow from "../../assets/tensorflow.svg";
 import python from "../../assets/python.svg";
