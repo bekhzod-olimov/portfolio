@@ -45,7 +45,8 @@ export const Container = styled.section`
   
   
 
-  .about-image{
+  # profile pic
+  .about-image{ 
     text-align: center;
    img{
      margin-top: 2rem;

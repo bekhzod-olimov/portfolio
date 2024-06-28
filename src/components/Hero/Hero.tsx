@@ -1,7 +1,8 @@
 import { BrowserRouter } from "react-router-dom"
 import { Container } from "./styles"
 import ScrollAnimation from "react-animate-on-scroll"
-import Illustration from "../../assets/hero_im_2.jpg"
+// import Illustration from "../../assets/hero_im_2.jpg"
+import Illustration from "../../assets/bekhzod_ani.png"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import kaggle from '../../assets/kaggle.svg'
