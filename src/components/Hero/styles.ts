@@ -47,7 +47,7 @@ export const Container = styled.section`
 
   .hero-image{
     img{
-      max-width: 500px;
+      max-width: 300px;
     }
   }
 
@@ -67,7 +67,7 @@ export const Container = styled.section`
     }
   }
 
-  @media(max-width: 600px){
+  @media(max-width: 400px){
     margin-top: 35%;
   }
   @media(max-width: 480px){
