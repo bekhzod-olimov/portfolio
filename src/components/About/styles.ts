@@ -50,7 +50,7 @@ export const Container = styled.section`
    img{
      margin-top: 2rem;
     //  width: 75%;
-     width: 200%;
+     width: 50%;
      filter: grayscale(0);
      transition: filter 0.5s;
      &:hover{
