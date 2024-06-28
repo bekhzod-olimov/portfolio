@@ -60,7 +60,7 @@ export const Container = styled.section`
    }
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 120px) {
     .about-image {
       // max-width: 100%;
       max-width: 20%;
@@ -77,7 +77,7 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 480px){
+  @media (max-width: 120px){
     display: block;
     text-align: center;
     
