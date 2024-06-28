@@ -49,7 +49,8 @@ export const Container = styled.section`
     text-align: center;
    img{
      margin-top: 2rem;
-     width: 75%;
+    //  width: 75%;
+     width: 20%;
      filter: grayscale(0);
      transition: filter 0.5s;
      &:hover{
@@ -60,11 +61,13 @@ export const Container = styled.section`
 
   @media only screen and (max-width: 480px) {
     .about-image {
-      max-width: 100%;
+      // max-width: 100%;
+      max-width: 20%;
       margin-top: 4rem;
       img{
         margin-top: 2rem;
-        width: 100%;
+        // width: 100%;
+        width: 20%;
         filter: grayscale(0);
         transition: filter 0.5s;
         &:hover{
@@ -82,10 +85,12 @@ export const Container = styled.section`
     }
     .about-image{
       display: flex;
-      max-width: 100%;
+      // max-width: 100%;
+      max-width: 20%;
       img{
         margin-top: 2rem;
-        width: 100%;
+        // width: 100%;
+        width: 20%;
         filter: grayscale(0);
         transition: filter 0.5s;
         &:hover{
