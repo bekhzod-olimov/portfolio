@@ -38,6 +38,10 @@ export function Project() {
               <div className="project-links">
               <a href="https://link.springer.com/article/10.1007/s00530-020-00726-w" target="_blank" rel="noreferrer">
                   <img src={scholarIcon} alt="Visit site" /></a>
+                  <a href="https://ieeexplore.ieee.org/abstract/document/9328441" target="_blank" rel="noreferrer">
+                  <img src={scholarIcon} alt="Visit site" /></a>
+                  <a href="https://ieeexplore.ieee.org/abstract/document/9617630" target="_blank" rel="noreferrer">
+                  <img src={scholarIcon} alt="Visit site" /></a>
                 {/* <a href="https://link.springer.com/article/10.1007/s00530-020-00726-w" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a> </div> */}
@@ -58,7 +62,7 @@ export function Project() {
               <div className="project-links">
               <a href="https://drive.google.com/file/d/1dGANwOLx5tJ4cyUWY0pZ2QmxojFkGSHq/view?usp=sharing" target="_blank" rel="noreferrer">
                   <img src={DownloadApp} alt="Visit site" /></a>
-                  <a href="https://drive.google.com/file/d/1dGANwOLx5tJ4cyUWY0pZ2QmxojFkGSHq/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <a href="https://drive.google.com/file/d/1ssEaKjByDLLINOGvPhHg2rWeSC5IGUsN/view?usp=sharing" target="_blank" rel="noreferrer">
                   <img src={scholarIcon} alt="Visit site" /></a>
                 <a href="https://app.roboflow.com/bekhzod-olimov/disabled-sign-detection/1" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
@@ -66,9 +70,9 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Object detection task-related research</h3>
-              <p> Conducted extensive research and several projects using DL-based image classification in activation functions and DL-based model architecture. The outcomes of the research were published in an international SCIE journals, such as Nature Scientific Reports and Concurrency and Computation.  </p>
+              <p> Instructed undergraduate students on how to conduct DL-research, write a scientific paper, and present it in an scientific conference.  </p>
             </div>
-            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Activation function</li> <li>Efficient computation</li> <li>Model Architecture</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>RoboFlow</li> <li>YOLO</li> <li>Project from Scratch</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
