@@ -21,7 +21,7 @@ export function Project() {
                 <a href="https://github.com/bekhzod-olimov/Weight-Initialization-based-Rectified-Linear-Unit" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a> </div>
-                </div>
+                {/* </div> */}
             </header>
             <div className="body">
               <h3>Image classification-related research</h3>
