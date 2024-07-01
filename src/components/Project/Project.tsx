@@ -94,6 +94,24 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0360835222003709" target="_blank" rel="noreferrer">
+                  <img src={scholarIcon} alt="Visit site" /></a>
+                  <a href="https://www.nature.com/articles/s41598-023-30480-8" target="_blank" rel="noreferrer">
+                  <img src={scholarIcon} alt="Visit site" /></a></div>
+            </header>
+            <div className="body">
+              <h3>Crowd Counting-related research</h3>
+              <p> After Seoul Halloween crowd crush in October, 2022, we conducted research to identify dense areas crowded with people and inform police forces about the possible accident in advance using Deep Learning techniques.    </p>
+            </div>
+            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Crowd Counting</li> <li>Dense Areas with People</li> <li>Efficient Computation</li> </ul> </footer>
+          </div>
+        </ScrollAnimation>
+
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
