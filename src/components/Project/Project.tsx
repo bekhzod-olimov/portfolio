@@ -19,12 +19,12 @@ export function Project() {
               <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.6143" target="_blank" rel="noreferrer">
                   <img src={scholarIcon} alt="Visit site" /></a>
                 <a href="https://github.com/bekhzod-olimov/Weight-Initialization-based-Rectified-Linear-Unit" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
+                  <img src={githubIcon} alt="Visit site" />
                 </a> </div>
                 {/* </div> */}
             </header>
             <div className="body">
-              <h3>Image classification-related research</h3>
+              <h3>Image classification task-related research</h3>
               <p> Conducted extensive research and several projects using DL-based image classification in activation functions and DL-based model architecture. The outcomes of the research were published in an international SCIE journals, such as Nature Scientific Reports and Concurrency and Computation.  </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Activation function</li> <li>Efficient computation</li> <li>Model Architecture</li> </ul> </footer>
@@ -44,10 +44,31 @@ export function Project() {
                 </div>
             </header>
             <div className="body">
-              <h3>Semantic Segmentation-related research</h3>
+              <h3>Semantic Segmentation task-related research</h3>
               <p> Conducted extensive research and several projects using DL-based semantic segmentation in autonomous driving and medical imaging. The outcomes of the research were published in an international SCIE journals, such as IEEE Access and Multimedia Systems.  </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>TensorFlow</li> <li>API Gateway</li> <li>Efficient Computing</li> </ul> </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
+              <a href="https://drive.google.com/file/d/1dGANwOLx5tJ4cyUWY0pZ2QmxojFkGSHq/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <img src={DownloadApp} alt="Visit site" /></a>
+                  <a href="https://drive.google.com/file/d/1dGANwOLx5tJ4cyUWY0pZ2QmxojFkGSHq/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <img src={scholarIcon} alt="Visit site" /></a>
+                <a href="https://app.roboflow.com/bekhzod-olimov/disabled-sign-detection/1" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
+                </a> </div>
+            </header>
+            <div className="body">
+              <h3>Object detection task-related research</h3>
+              <p> Conducted extensive research and several projects using DL-based image classification in activation functions and DL-based model architecture. The outcomes of the research were published in an international SCIE journals, such as Nature Scientific Reports and Concurrency and Computation.  </p>
+            </div>
+            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Activation function</li> <li>Efficient computation</li> <li>Model Architecture</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
