@@ -76,30 +76,22 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        {/* 
-      <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
-                <a href="https://kameleon.co.in/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
+              <a href="https://drive.google.com/file/d/1dGANwOLx5tJ4cyUWY0pZ2QmxojFkGSHq/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <img src={DownloadApp} alt="Visit site" /></a></div>
             </header>
             <div className="body">
-              <h3>Kameleon - Cloth Selling Site</h3>
-              <p>
-              This website sells men's cloth products and helps men look their best. It is easy to find what you need, whether it's cloth shirts, pants, or accessories. The site is useful for men who want to look their best and need some help.
-              </p>
+              <h3>Anomaly detection-related research</h3>
+              <p> Came up with an idea, wrote a proposal and attained National Research Fund of Korea grant for research for the period of 3 years. The results of the research were published in a SCIE paper name Computers & Industrial Engineering with an impact factor of 6.7.    </p>
             </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Shopify</li>
-              </ul>
-            </footer>
+            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>RoboFlow</li> <li>YOLO</li> <li>Project from Scratch</li> </ul> </footer>
           </div>
-        </ScrollAnimation> */}
+        </ScrollAnimation>
+
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
