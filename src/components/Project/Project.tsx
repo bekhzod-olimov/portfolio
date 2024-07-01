@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 import githubIcon from "../../assets/github.svg"
 import scholarIcon from "../../assets/google_scholar.svg"
-import DownloadApp from '../../assets/download.png'
+import DownloadApp from '../../assets/play.svg'
 import externalLink from "../../assets/pytorch.svg"
 import ScrollAnimation from "react-animate-on-scroll";
 
