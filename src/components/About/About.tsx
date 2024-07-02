@@ -101,11 +101,8 @@ export function About() {
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.3 * 1000}>
-        {/* src={Illustration}
-        alt="HTML5" 
-        style={{width: 200, height: 200, position: 'absolute'}}/ */}
-          <img src={Illustration} alt="Illustration"/>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.24 * 1000}>
+          <img src={Illustration} alt="Illustration" />
         </ScrollAnimation>
       </div>
     </Container>
