@@ -102,10 +102,10 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.3 * 1000}>
-        <img onClick={this.handleKeyPress} 
+        {/* <img onClick={this.handleKeyPress}  */}
         src={Illustration}
         alt="HTML5" 
-        style={{width: 200, height: 200, position: 'absolute'}}/>
+        style={{width: 200, height: 200, position: 'absolute'}}/
           {/* <img src={Illustration} alt="Illustration"/> */}
         </ScrollAnimation>
       </div>
