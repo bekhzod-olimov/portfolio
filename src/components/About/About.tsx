@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import Illustration from "../../assets/illustration.jpg"
+import Illustration from "../../assets/ai_developer.jpg"
 import pytorch from "../../assets/pytorch.svg";
 import tensorflow from "../../assets/tensorflow.svg";
 import python from "../../assets/python.svg";
