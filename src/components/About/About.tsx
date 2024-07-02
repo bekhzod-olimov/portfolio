@@ -105,8 +105,8 @@ export function About() {
         <img onClick={this.handleKeyPress} 
         src={Illustration}
         alt="HTML5" 
-        style={{width: 200, height: 200, position: 'absolute', top: this.props.top, left: this.props.left}}/>
-          {/* <img src={Illustration} alt="Illustration" style={{width: 200, height: 200, position: 'absolute', top: this.props.top, left: this.props.left}}/> */}
+        style={{width: 200, height: 200, position: 'absolute'}}/>
+          {/* <img src={Illustration} alt="Illustration"/> */}
         </ScrollAnimation>
       </div>
     </Container>
