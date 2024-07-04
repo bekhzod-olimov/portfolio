@@ -202,7 +202,7 @@ export function Project() {
               <h3>Manga2Webtoon using AI </h3>
               <p> Going on project on converting Japanese and Chinese manga to Korean Webtoon using AI. The complete project contains several steps including cutting the parts using semantic segmentation, coloring the original grayscale image using image generation models, reading callouts using OCR method and so on.  </p>
             </div>
-            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>PyTorch Lightning</li> <li>Triplet training</li> <li>Siamese network</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Semantic Segmentation</li> <li>OCR</li> <li>Object Detection</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 

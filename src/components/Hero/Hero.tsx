@@ -6,7 +6,7 @@ import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import kaggle from '../../assets/kaggle.svg'
 import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
+import kakao from '../../assets/kakao.png'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
 export function Hero() {
@@ -43,13 +43,6 @@ export function Hero() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={telegram} alt="Telegram" />
-        </a>
-        <a
-          href="https://t.me/bekhzodAI"
-          target="_blank"
-          rel="noreferrer"
-        >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
@@ -60,7 +53,7 @@ export function Hero() {
           <img src={telegram} alt="Telegram" />
         </a>
         <a
-          href="https://www.kaggle.com/killa92"
+          href="https://t.me/bekhzodAI"
           target="_blank"
           rel="noreferrer"
         >
