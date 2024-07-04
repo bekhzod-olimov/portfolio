@@ -43,6 +43,13 @@ export function Hero() {
           target="_blank"
           rel="noreferrer"
         >
+          <img src={kakao} alt="Kakao" />
+        </a>
+        <a
+          href="https://drive.google.com/file/d/14C7KpoTdY2aJBpx5LdKTKRu4R2e_PoSK/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
