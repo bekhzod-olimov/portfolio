@@ -193,15 +193,13 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
-              <a href="https://drive.google.com/file/d/19FdTXJUsFnTdWg1mb6rS-fltHz2iSXkk/view?usp=sharing" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1MFbHKJUK0ZdaG1JVFUrElkloGnJUA5Zg/view?usp=sharing" target="_blank" rel="noreferrer">
                   <img src={DownloadApp} alt="Visit site" /></a>
-                  <a href="https://github.com/vitasoftAI/ImageRetrievalResearch" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                  <a href="https://github.com/vitasoftAI/Recycle-Park" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a></div>
+                  <a href="https://drive.google.com/file/d/19FdTXJUsFnTdWg1mb6rS-fltHz2iSXkk/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <img src={DownloadApp} alt="Visit site" /></a></div>
             </header>
             <div className="body">
-              <h3>Manga2Webtoon project using segmentation, generation, OCR, and colorization tasks </h3>
+              <h3>Manga2Webtoon using AI </h3>
               <p> Going on project on converting Japanese and Chinese manga to Korean Webtoon using AI. The complete project contains several steps including cutting the parts using semantic segmentation, coloring the original grayscale image using image generation models, reading callouts using OCR method and so on.  </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>PyTorch Lightning</li> <li>Triplet training</li> <li>Siamese network</li> </ul> </footer>
