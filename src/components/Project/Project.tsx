@@ -1,6 +1,7 @@
 import { Container } from "./styles";
 import githubIcon from "../../assets/github.svg"
 import scholarIcon from "../../assets/google_scholar.svg"
+import kaggleIcon from "../../assets/kaggle.svg"
 import DownloadApp from '../../assets/play.svg'
 import externalLink from "../../assets/pytorch.svg"
 import ScrollAnimation from "react-animate-on-scroll";
@@ -146,9 +147,38 @@ export function Project() {
               <h3>Image Retrieval task-related research</h3>
               <p> Conducted research on retrieving real-life images based on the sketch images. The trained model was implemented to detect fake luxury goods in the Customs office of the Republic of Korea and to detect used car parts in the GPARTS web-site.   </p>
             </div>
-            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>PyTorch Lightning</li> <li>Triplet training</li> <li>Imagen</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>PyTorch Lightning</li> <li>Triplet training</li> <li>Siamese network</li> </ul> </footer>
           </div>
         </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
+              <a href="https://www.kaggle.com/killa92/code" target="_blank" rel="noreferrer">
+                  <img src={kaggleIcon} alt="Visit site" /></a>
+                  <a href="https://www.kaggle.com/code/killa92/97-accurate-aerial-images-of-cities-classifier" target="_blank" rel="noreferrer">
+                  <img src={kaggleIcon} alt="Visit site" /></a>
+                  <a href="https://www.kaggle.com/code/killa92/100-acc-traffic-signs-classification-pytorch" target="_blank" rel="noreferrer">
+                  <img src={kaggleIcon} alt="Visit site" /></a>
+                  <a href="https://www.kaggle.com/code/killa92/miou-0-9-apple-disease-segmentation-pytorch" target="_blank" rel="noreferrer">
+                  <img src={kaggleIcon} alt="Visit site" /></a>
+                  <a href="https://www.kaggle.com/code/killa92/tomato-leaf-disease-detection-using-yolov9" target="_blank" rel="noreferrer">
+                  <img src={kaggleIcon} alt="Visit site" /></a>
+                  <a href="https://www.kaggle.com/code/killa92/hate-speech-image-visualization-classification" target="_blank" rel="noreferrer">
+                  <img src={kaggleIcon} alt="Visit site" /></a>
+                  <a href="https://www.kaggle.com/code/killa92/tweets-vis-classification-using-transformers" target="_blank" rel="noreferrer">
+                  <img src={kaggleIcon} alt="Visit site" /></a></div>
+            </header>
+            <div className="body">
+              <h3>Kaggle Projects using open source databases</h3>
+              <p> Completed 200+ mini projects using open source databases in Kaggle in various AI tasks, such as image classification, semantic segmentation, object detection, natural language processing and so on. </p>
+            </div>
+            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>PyTorch Lightning</li> <li>Jupyter Notebook</li> <li>Kaggle</li> </ul> </footer>
+          </div>
+        </ScrollAnimation>
+
       </div>
     </Container>
   );
