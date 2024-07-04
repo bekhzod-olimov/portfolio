@@ -35,7 +35,7 @@ export const Container = styled.section`
 
     img,span{
       font-size: 3rem;
-      width: 5rem;
+      width: 4rem;
     }
   }
 
@@ -53,7 +53,7 @@ export const Container = styled.section`
 
   @media(max-width: 300px){
     display: block;
-    margin-top: 15%;
+    margin-top: 150%;
     .hero-text{
 
       h1{
