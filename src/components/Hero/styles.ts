@@ -35,10 +35,9 @@ export const Container = styled.section`
 
     img,span{
       font-size: 3rem;
-      width: 35rem;
+      width: 5rem;
     }
   }
-
 
   .button{
     margin-top: 5rem;
@@ -52,7 +51,7 @@ export const Container = styled.section`
   }
 
 
-  @media(max-width: 960px){
+  @media(max-width: 300px){
     display: block;
     margin-top: 15%;
     .hero-text{
