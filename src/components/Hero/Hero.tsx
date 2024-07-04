@@ -69,7 +69,7 @@ export function Hero() {
         </ScrollAnimation>
       </div>
       <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
+        <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
           <img src={bekhzod} alt="profile_pic" />
         </ScrollAnimation>
       </div>
