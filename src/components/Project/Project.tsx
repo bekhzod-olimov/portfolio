@@ -3,6 +3,15 @@ import githubIcon from "../../assets/github.svg"
 import scholarIcon from "../../assets/google_scholar.svg"
 import kaggleIcon from "../../assets/kaggle.svg"
 import DownloadApp from '../../assets/play.svg'
+import classification from '../../assets/classification_2.svg'
+import segment from '../../assets/segmentation.svg'
+import detection from '../../assets/detection.svg'
+import generation from '../../assets/generation.svg'
+import kaggle2 from '../../assets/kaggle_2.svg'
+import retrieval from '../../assets/retrieval.svg'
+import crowd from '../../assets/crowd.svg'
+import anomaly from '../../assets/anomaly.svg'
+import coloring from '../../assets/coloring.svg'
 import externalLink from "../../assets/pytorch.svg"
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -15,7 +24,8 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <img> classification </img>
+              {/* <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg> */}
               <div className="project-links">
               <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.6143" target="_blank" rel="noreferrer">
                   <img src={scholarIcon} alt="Visit site" /></a>
@@ -176,6 +186,26 @@ export function Project() {
               <p> Completed 200+ mini projects using open source databases in Kaggle in various AI tasks, such as image classification, semantic segmentation, object detection, natural language processing and so on. </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>PyTorch Lightning</li> <li>Jupyter Notebook</li> <li>Kaggle</li> </ul> </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
+              <a href="https://drive.google.com/file/d/19FdTXJUsFnTdWg1mb6rS-fltHz2iSXkk/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <img src={DownloadApp} alt="Visit site" /></a>
+                  <a href="https://github.com/vitasoftAI/ImageRetrievalResearch" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a>
+                  <a href="https://github.com/vitasoftAI/Recycle-Park" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a></div>
+            </header>
+            <div className="body">
+              <h3>Manga2Webtoon project using segmentation, generation, OCR, and colorization tasks </h3>
+              <p> Going on project on converting Japanese and Chinese manga to Korean Webtoon using AI. The complete project contains several steps including cutting the parts using semantic segmentation, coloring the original grayscale image using image generation models, reading callouts using OCR method and so on.  </p>
+            </div>
+            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>PyTorch Lightning</li> <li>Triplet training</li> <li>Siamese network</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
