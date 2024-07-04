@@ -39,28 +39,28 @@ export function Hero() {
         <img src={linkedin} alt="Linkedin" />
       </a>
         <a
-          href="https://github.com/bekhzod-olimov"
+          href="https://drive.google.com/file/d/14C7KpoTdY2aJBpx5LdKTKRu4R2e_PoSK/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
           <img src={kakao} alt="Kakao" />
         </a>
         <a
-          href="https://drive.google.com/file/d/14C7KpoTdY2aJBpx5LdKTKRu4R2e_PoSK/view?usp=sharing"
+          href="https://github.com/bekhzod-olimov"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://github.com/bekhzod-olimov"
+          href="https://t.me/bekhzodAI"
           target="_blank"
           rel="noreferrer"
         >
           <img src={telegram} alt="Telegram" />
         </a>
         <a
-          href="https://t.me/bekhzodAI"
+          href="https://www.kaggle.com/killa92"
           target="_blank"
           rel="noreferrer"
         >
