@@ -35,7 +35,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Image classification task-related research</h3>
-              <p> Conducted extensive research and several projects using DL-based image classification in activation functions and DL-based model architecture. The outcomes of the research were published in an international SCIE journals, such as Nature Scientific Reports and Concurrency and Computation.  </p>
+              <p> I have conducted extensive research and completed several projects focused on deep learning (DL)-based image classification, particularly in the areas of activation functions and model architecture. The outcomes of my research have been published in international SCIE journals, such as Nature Scientific Reports and Concurrency and Computation.  </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Activation function</li> <li>Efficient computation</li> <li>Model Architecture</li> </ul> </footer>
           </div>
@@ -59,7 +59,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Semantic Segmentation task-related research</h3>
-              <p> Conducted extensive research and several projects using DL-based semantic segmentation in autonomous driving and medical imaging. The outcomes of the research were published in an international SCIE journals, such as IEEE Access and Multimedia Systems.  </p>
+              <p> I have undertaken in-depth research and completed several projects focused on deep learning (DL)-based semantic segmentation, particularly in the fields of autonomous driving and medical imaging. The outcomes of my research have been published in international SCIE journals, such as IEEE Access and Multimedia Systems.  </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>TensorFlow</li> <li>API Gateway</li> <li>Efficient Computing</li> </ul> </footer>
           </div>
@@ -80,7 +80,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Object detection task-related research</h3>
-              <p> Instructed undergraduate students on how to conduct DL-research, write a scientific paper, and present it in an scientific conference.  </p>
+              <p> I provided instruction to undergraduate students on conducting deep learning research, writing a scientific paper, and presenting it at a scientific conference. The research focused on detecting signs of disabled individuals in vehicles. The project was initiated from scratch, involving comprehensive tasks such as data collection, model formulation, and inference.  </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>RoboFlow</li> <li>YOLO</li> <li>Project from Scratch</li> </ul> </footer>
           </div>
@@ -98,7 +98,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Anomaly detection-related research</h3>
-              <p> Came up with an idea, wrote a proposal and attained National Research Fund of Korea grant for research for the period of 3 years. The results of the research were published in a SCIE papers named "Computers & Industrial Engineering" with an impact factor of 6.7 and Nature Scientific Reports.    </p>
+              <p> I conceived an idea, wrote a proposal, and secured a National Research Fund of Korea grant for a three-year research period. The results of this research were published in SCIE journals, including "Computers & Industrial Engineering" with an impact factor of 6.7, and "Nature Scientific Reports".    </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Anomaly Detection</li> <li>Heatmap</li> <li>NRF Project</li> </ul> </footer>
           </div>
@@ -114,7 +114,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Crowd Counting-related research</h3>
-              <p> After Seoul Halloween crowd crush in October, 2022, we conducted research to identify dense areas crowded with people and inform police forces about the possible accident in advance using Deep Learning techniques.    </p>
+              <p> Following the Seoul Halloween crowd crush in October 2022, we conducted research to identify densely populated areas and preemptively alert law enforcement about potential accidents using Deep Learning techniques.   </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Crowd Counting</li> <li>Dense Areas with People</li> <li>Efficient Computation</li> </ul> </footer>
           </div>
@@ -132,7 +132,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Image Generation task-related research</h3>
-              <p> Conducted research on generating vehicle registration plates of South Korea based on synthetic and real image data. The generated data was used to train an AI model of a "License Plate Recognition Parking Management System".   </p>
+              <p> I conducted research on generating synthetic and real image data for vehicle registration plates in South Korea. The generated dataset was utilized to train an AI model for a "License Plate Recognition Parking Management System".   </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Image Generation</li> <li>GAN</li> <li>Imagen</li> </ul> </footer>
           </div>
@@ -158,7 +158,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Image Retrieval task-related research</h3>
-              <p> Conducted research on retrieving real-life images based on the sketch images. The trained model was implemented to detect fake luxury goods in the Customs office of the Republic of Korea and to detect used car parts in the GPARTS web-site.   </p>
+              <p> I undertook in-depth research on developing a model for retrieving real-life images based on sketch images. The trained model was implemented to detect counterfeit luxury goods in the Customs office of the Republic of Korea and to detect used car parts in the GPARTS web-site.   </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>PyTorch Lightning</li> <li>Triplet training</li> <li>Siamese network</li> </ul> </footer>
           </div>
@@ -186,7 +186,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Kaggle Projects using open source databases</h3>
-              <p> Completed 200+ mini projects using open source databases in Kaggle in various AI tasks, such as image classification, semantic segmentation, object detection, natural language processing and so on. </p>
+              <p> I engaged in over 200 mini projects using open-source databases on Kaggle, focusing on various AI tasks including image classification, semantic segmentation, object detection, natural language processing, and more. </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>PyTorch Lightning</li> <li>Jupyter Notebook</li> <li>Kaggle</li> </ul> </footer>
           </div>
@@ -204,7 +204,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Manga2Webtoon using AI </h3>
-              <p> Going on project on converting Japanese and Chinese manga to Korean Webtoon using AI. The complete project contains several steps including cutting the parts using semantic segmentation, coloring the original grayscale image using image generation models, reading callouts using OCR method and so on.  </p>
+              <p> Embarking on a project to convert Japanese and Chinese manga into Korean Webtoons using AI involves several sequential steps. These include segmenting parts using semantic segmentation, applying color to the original grayscale images using image generation models, extracting text from speech bubbles using Optical Character Recognition (OCR), and more.  </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Semantic Segmentation</li> <li>OCR</li> <li>Object Detection</li> </ul> </footer>
           </div>
