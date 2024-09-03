@@ -164,16 +164,30 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
-              <a href="https://github.com/vitasoftAI/Real-and-Synthetic-Korean-Licence-Plate-Generator" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                  <a href="https://github.com/bekhzod-olimov/DataGenerationwithImagen" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/bekhzod-olimov/Face-Verification-System-using-AI/tree/main" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a></div>
             </header>
             <div className="body">
-              <h3>Image Generation task-related research</h3>
-              <p> I conducted research on generating synthetic and real image data for vehicle registration plates in South Korea. The generated dataset was utilized to train an AI model for a "License Plate Recognition Parking Management System".   </p>
+              <h3>Face Verification using AI Project</h3>
+              <p> I developed a face verification system that can be used to check the attendance of students or employees at school or office. I used traditional and DL-based computer vision techniques during the project. This project is integrated to the various organizations in Uzbekistan. </p>
             </div>
-            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Image Generation</li> <li>GAN</li> <li>Imagen</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>cv2</li> <li>face verification</li> <li>face recognition</li> <li>attendance</li> </ul> </footer>
+          </div>
+        </ScrollAnimation>
+          
+          <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
+                  <a href="https://github.com/bekhzod-olimov/MedicalSemanticSegmentation3D" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a></div>
+            </header>
+            <div className="body">
+              <h3>3D Medical Image Segmentation task-related research</h3>
+              <p> I conducted research on segmenting 3D medical image data (specifically, body organs, like spleen, prostate and so on along with dental nerve. The latter was a joint project with a South Korean dental clinic. The segmentation AI model is integrated to the South Korean dental clinic software. </p>
+            </div>
+            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>3D medical data</li> <li>PyTorch Lightning</li> <li>Dentistry</li> </ul> </footer>
           </div>
         </ScrollAnimation>
           
