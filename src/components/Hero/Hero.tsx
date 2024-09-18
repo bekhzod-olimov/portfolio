@@ -9,6 +9,22 @@ import githubIcon from '../../assets/github.svg';
 import kakao from '../../assets/kakao.png';
 import Hello from '../../assets/Hello.gif';
 import telegram from '../../assets/telegram.svg';
+
+// import pytorch from '../../assets/pytorch.svg';
+// import tensorflow from '../../assets/tensorflow.svg';
+// import python from '../../assets/python.svg';
+// import docker from '../../assets/docker.svg';
+// import pl from '../../assets/pl_logo.svg';
+// import js from '../../assets/js.svg';
+// import django from '../../assets/django.svg';
+// import huggingface from '../../assets/huggingface.svg';
+// import numpy from '../../assets/numpy.svg';
+// import opencv from '../../assets/opencv.svg';
+// import sklearn from '../../assets/sklearn.png';
+// import git from '../../assets/git.svg';
+
+const images = [linkedin, kaggle, githubIcon, kakao, telegram];
+
 export function Hero() {
 	return (
 		<Container id='home'>
@@ -40,7 +56,54 @@ export function Hero() {
 					</BrowserRouter>
 				</ScrollAnimation>
 				<ScrollAnimation animateIn='fadeInUp' delay={1 * 1000}>
-					<div className='social-media'>
+					
+					<div
+						style={{
+							display: 'flex',
+							flexWrap: 'wrap',
+							gap: '10px',
+							marginTop: '30px',
+						}}
+					>
+						<a href="https://www.linkedin.com/in/bekhzod-olimov-doctor-of-engineering-33059bb1/"></a>
+						{images.map((item, index) => (
+							<ScrollAnimation
+								key={index}
+								animateIn='fadeInLeft'
+								delay={index * 0.1 * 1000}
+							>
+								<div
+									style={{
+										height: '100px',
+										width: '100px',
+										borderRadius: '12px',
+										padding: '10px',
+										background: '#c5c5c5',
+										display: 'flex',
+										justifyContent: 'center',
+										alignItems: 'center',
+									}}
+									className='hability'
+								>
+									<img
+										style={{
+											width: '100%',
+											height: '100%',
+											objectFit: 'contain',
+										}}
+										src={item}
+										alt={item}
+									
+									/>
+									{/* <a   
+									href='https://www.linkedin.com/in/bekhzod-olimov-doctor-of-engineering-33059bb1/'
+									/> */}
+								</div>
+							</ScrollAnimation>
+						))}
+					</div>
+					
+					{/* <div className='social-media'>
 						<a
 							href='https://www.linkedin.com/in/bekhzod-olimov-doctor-of-engineering-33059bb1/'
 							target='_blank'
@@ -72,7 +135,7 @@ export function Hero() {
 						>
 							<img src={kaggle} alt='Kaggle' />
 						</a>
-					</div>
+					</div> */}
 				</ScrollAnimation>
 			</div>
 			<div
