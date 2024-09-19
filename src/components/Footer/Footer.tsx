@@ -20,6 +20,13 @@ export function Footer() {
         </p>
       </div>
       <div className="social-media">
+      <a
+          href="https://www.linkedin.com/in/bekhzod-olimov-doctor-of-engineering-33059bb1/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={linkedin} alt="LinkedIn" />
+        </a>
         <a
           href="https://www.kaggle.com/killa92"
           target="_blank"
