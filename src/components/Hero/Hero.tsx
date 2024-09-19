@@ -9,24 +9,13 @@ import githubIcon from '../../assets/github.svg';
 import kakao from '../../assets/kakao.png';
 import Hello from '../../assets/Hello.gif';
 import telegram from '../../assets/telegram.svg';
+import instagramIcon from '../../assets/instagram.svg'
 
-// import pytorch from '../../assets/pytorch.svg';
-// import tensorflow from '../../assets/tensorflow.svg';
-// import python from '../../assets/python.svg';
-// import docker from '../../assets/docker.svg';
-// import pl from '../../assets/pl_logo.svg';
-// import js from '../../assets/js.svg';
-// import django from '../../assets/django.svg';
-// import huggingface from '../../assets/huggingface.svg';
-// import numpy from '../../assets/numpy.svg';
-// import opencv from '../../assets/opencv.svg';
-// import sklearn from '../../assets/sklearn.png';
-// import git from '../../assets/git.svg';
-
-const images = [linkedin, kaggle, githubIcon, kakao, telegram];
+const images = [linkedin, kaggle, githubIcon, instagramIcon, kakao, telegram];
 const links = ["https://www.linkedin.com/in/bekhzod-olimov-doctor-of-engineering-33059bb1/", 
 			   "https://www.kaggle.com/killa92", 
 			   "https://github.com/bekhzod-olimov", 
+			   "https://www.instagram.com/beki___oli/",
 			   "https://drive.google.com/file/d/14C7KpoTdY2aJBpx5LdKTKRu4R2e_PoSK/view?usp=sharing", 
 			   "https://t.me/bekhzodAI"];
 
