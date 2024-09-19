@@ -24,6 +24,11 @@ import telegram from '../../assets/telegram.svg';
 // import git from '../../assets/git.svg';
 
 const images = [linkedin, kaggle, githubIcon, kakao, telegram];
+const links = ["https://www.linkedin.com/in/bekhzod-olimov-doctor-of-engineering-33059bb1/", 
+			   "https://www.kaggle.com/killa92", 
+			   "https://github.com/bekhzod-olimov", 
+			   "https://drive.google.com/file/d/14C7KpoTdY2aJBpx5LdKTKRu4R2e_PoSK/view?usp=sharing", 
+			   "https://t.me/bekhzodAI"];
 
 export function Hero() {
 	return (
@@ -65,7 +70,6 @@ export function Hero() {
 							marginTop: '30px',
 						}}
 					>
-						<a href="https://www.linkedin.com/in/bekhzod-olimov-doctor-of-engineering-33059bb1/"></a>
 						{images.map((item, index) => (
 							<ScrollAnimation
 								key={index}
@@ -85,57 +89,22 @@ export function Hero() {
 									}}
 									className='hability'
 								>
-									<img
-										style={{
+									<a href={links[index]} target="_blank" rel="noopener noreferrer">
+										<img
+											style={{
 											width: '100%',
 											height: '100%',
 											objectFit: 'contain',
-										}}
-										src={item}
-										alt={item}
-									
-									/>
-									{/* <a   
-									href='https://www.linkedin.com/in/bekhzod-olimov-doctor-of-engineering-33059bb1/'
-									/> */}
+											}}
+											src={item}
+											alt={item}
+										/>
+										</a>
 								</div>
 							</ScrollAnimation>
 						))}
 					</div>
 					
-					{/* <div className='social-media'>
-						<a
-							href='https://www.linkedin.com/in/bekhzod-olimov-doctor-of-engineering-33059bb1/'
-							target='_blank'
-							rel='noreferrer'
-						>
-							<img src={linkedin} alt='Linkedin' />
-						</a>
-						<a
-							href='https://drive.google.com/file/d/14C7KpoTdY2aJBpx5LdKTKRu4R2e_PoSK/view?usp=sharing'
-							target='_blank'
-							rel='noreferrer'
-						>
-							<img src={kakao} alt='Kakao' />
-						</a>
-						<a
-							href='https://github.com/bekhzod-olimov'
-							target='_blank'
-							rel='noreferrer'
-						>
-							<img src={githubIcon} alt='GitHub' />
-						</a>
-						<a href='https://t.me/bekhzodAI' target='_blank' rel='noreferrer'>
-							<img src={telegram} alt='Telegram' />
-						</a>
-						<a
-							href='https://www.kaggle.com/killa92'
-							target='_blank'
-							rel='noreferrer'
-						>
-							<img src={kaggle} alt='Kaggle' />
-						</a>
-					</div> */}
 				</ScrollAnimation>
 			</div>
 			<div
