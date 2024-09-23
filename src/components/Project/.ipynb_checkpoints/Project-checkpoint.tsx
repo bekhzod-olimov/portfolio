@@ -254,7 +254,7 @@ export function Project() {
                   <img src={DownloadApp} alt="Visit site" /></a>
                   <a href="https://github.com/bekhzod-olimov/Manga2WebtoonDevelopment" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                  <a href="https://drive.google.com/file/d/19FdTXJUsFnTdWg1mb6rS-fltHz2iSXkk/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <a href="https://drive.google.com/file/d/1ESbotxntqO2_hYlHtGdIZwI7LoZgYRGE/view?usp=sharing" target="_blank" rel="noreferrer">
                   <img src={DownloadApp} alt="Visit site" /></a>
                 </div>
             </header>
