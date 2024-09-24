@@ -189,7 +189,7 @@ export function Project() {
                   <img src={githubIcon} alt="Visit site" /></a>
                   <a href="https://github.com/vitasoftAI/ImageRetrievalResearch" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                  <a href="https://github.com/vitasoftAI/Recycle-Park" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/bekhzod-olimov/AutomobilePartsDetectionClassification" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
                   <a href="https://30be4274529221742d.gradio.live" target="_blank" rel="noreferrer">
                   <img src={DownloadApp} alt="Visit site" /></a></div>
