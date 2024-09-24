@@ -3,16 +3,16 @@ import githubIcon from "../../assets/github.svg"
 import scholarIcon from "../../assets/google_scholar.svg"
 import kaggleIcon from "../../assets/kaggle.svg"
 import DownloadApp from '../../assets/play.svg'
-import classification from '../../assets/classification_2.svg'
-import segment from '../../assets/segmentation.svg'
-import detection from '../../assets/detection.svg'
-import generation from '../../assets/generation.svg'
-import kaggle2 from '../../assets/kaggle_2.svg'
-import retrieval from '../../assets/retrieval.svg'
-import crowd from '../../assets/crowd.svg'
-import anomaly from '../../assets/anomaly.svg'
-import coloring from '../../assets/coloring.svg'
-import externalLink from "../../assets/pytorch.svg"
+// import classification from '../../assets/classification_2.svg'
+// import segment from '../../assets/segmentation.svg'
+// import detection from '../../assets/detection.svg'
+// import generation from '../../assets/generation.svg'
+// import kaggle2 from '../../assets/kaggle_2.svg'
+// import retrieval from '../../assets/retrieval.svg'
+// import crowd from '../../assets/crowd.svg'
+// import anomaly from '../../assets/anomaly.svg'
+// import coloring from '../../assets/coloring.svg'
+// import externalLink from "../../assets/pytorch.svg"
 import ScrollAnimation from "react-animate-on-scroll";
 
 
