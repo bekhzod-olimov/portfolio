@@ -202,10 +202,6 @@ export function Project() {
                   <img src={githubIcon} alt="Visit site" /></a>
                   <a href="https://github.com/vitasoftAI/Recycle-Park" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                  <a href="https://3f9dbc0733876e6eea.gradio.live" target="_blank" rel="noreferrer">
-                  <img src={DownloadApp} alt="Visit site" /></a>
-                  <a href="https://6dab7caa8b91ffbb3f.gradio.live" target="_blank" rel="noreferrer">
-                  <img src={DownloadApp} alt="Visit site" /></a>
                   <a href="https://30be4274529221742d.gradio.live" target="_blank" rel="noreferrer">
                   <img src={DownloadApp} alt="Visit site" /></a></div>
             </header>
