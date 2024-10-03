@@ -266,7 +266,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3> Cervical Cytology Screening & Early Detection of Cervical Cancer using CAD </h3>
-              <p> Lead the design and implementation of machine learning algorithms to accurately analyze cervical cytology images. Optimizing deep learning-based AI models for early detection and classification of abnormal cells, improving diagnostic accuracy, and reducing false positives. This project aims to enhance the efficiency of cervical cancer screening processes, ultimately supporting early intervention and better patient outcomes. </p>
+              <p> Optimizing deep learning-based AI models for early detection and classification of abnormal cells, improving diagnostic accuracy, and reducing false positives. This project aims to enhance the efficiency of cervical cancer screening processes, ultimately supporting early intervention and better patient outcomes. </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Semantic Segmentation</li> <li>OCR</li> <li>Object Detection</li> </ul> </footer>
           </div>
