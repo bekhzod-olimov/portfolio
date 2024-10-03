@@ -191,7 +191,7 @@ export function Project() {
                   <img src={githubIcon} alt="Visit site" /></a>
                   <a href="https://github.com/bekhzod-olimov/AutomobilePartsDetectionClassification" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                  <a href="http://192.168.0.131:8501" target="_blank" rel="noreferrer">
+                  <a href="http://10.1.0.90:8501" target="_blank" rel="noreferrer">
                   <img src={DownloadApp} alt="Visit site" /></a></div>
             </header>
             <div className="body">
