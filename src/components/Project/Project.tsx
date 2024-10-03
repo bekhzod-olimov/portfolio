@@ -251,6 +251,27 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              {/* <div className="project-links">
+              <a href="https://drive.google.com/file/d/17gJVC79Lk8k4Uly5egCGynl7RFvKF3cZ/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <img src={DownloadApp} alt="Visit site" /></a>
+                  <a href="https://github.com/bekhzod-olimov/Manga2WebtoonDevelopment" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a>
+                  <a href="https://drive.google.com/file/d/1ESbotxntqO2_hYlHtGdIZwI7LoZgYRGE/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <img src={DownloadApp} alt="Visit site" /></a>
+                </div> */}
+            </header>
+            <div className="body">
+              <h3> Cervical Cytology Screening & Early Detection of Cervical Cancer using CAD </h3>
+              <p> Lead the design and implementation of machine learning algorithms to accurately analyze cervical cytology images. Optimizing deep learning-based AI models for early detection and classification of abnormal cells, improving diagnostic accuracy, and reducing false positives. This project aims to enhance the efficiency of cervical cancer screening processes, ultimately supporting early intervention and better patient outcomes. </p>
+            </div>
+            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Semantic Segmentation</li> <li>OCR</li> <li>Object Detection</li> </ul> </footer>
+          </div>
+        </ScrollAnimation>
+
       </div>
     </Container>
   );
