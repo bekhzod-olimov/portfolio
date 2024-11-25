@@ -302,7 +302,7 @@ export function Project() {
               <h3>Remove Anything with Multiple Points</h3>
               <p> This mini-project leverages the Segment Anything model for semantic segmentation to identify and isolate objects in images. It then uses the LaMA 2 inpainting model to seamlessly remove the selected objects. Unlike the original Remove Anything model, which does not support multiple segmentation points, this project addresses that limitation by enabling segmentation of multiple objects simultaneously, enhancing the flexibility and accuracy of object removal for complex tasks. </p>
             </div>
-            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>MultiModal Data</li> <li>Image Classification</li> <li>Sentiment Analysis</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li> Semantic Segmentation </li> <li> Image Inpainting </li> <li> Object Removal </li> <li> PyTorch </li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
