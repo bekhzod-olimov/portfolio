@@ -319,7 +319,7 @@ export function Project() {
               <h3> Multi Instance Learning </h3>
               <p> This project implements a robust Multi-Instance Learning (MIL) framework designed to classify complex data where individual instances belong to different categories within a larger bag. The system dynamically learns bag-level labels from instance-level features, leveraging advanced AI techniques for both interpretability and performance. By optimizing attention-based mechanisms, the model identifies and weighs critical instances, making it highly effective for challenging tasks like image and text fusion in multimodal datasets. </p>
             </div>
-            <footer> <ul className="tech-list"> <li> Semantic Segmentation </li> <li> Image Inpainting </li> <li> Object Removal </li> <li> PyTorch </li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li> Multi Instance Learning </li> <li> Image Classification </li> <li> Attention Mechanism </li> <li> Bags Classification </li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
