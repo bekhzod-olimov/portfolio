@@ -324,6 +324,24 @@ export function Project() {
         </ScrollAnimation>
 
 
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              <div className="project-links">
+              <a href="https://github.com/bekhzod-olimov/Customized-YOLOX" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a>
+                </div>
+            </header>
+            <div className="body">
+              <h3> Cell Detection Project using YOLOX </h3>
+              <p> This project leverages the advanced YOLOX object detection framework for precise cervical cancer cell detection in medical images. The system is designed to identify and localize cells with high accuracy, even in challenging datasets. By integrating custom data augmentation, anchor-free detection, and dynamic label assignment techniques, this project ensures robust performance and scalability for medical imaging applications. Additionally, inference speed is significantly enhanced by utilizing TensorRT, optimizing the model for faster, real-time processing on NVIDIA GPUs, making it ideal for clinical and large-scale deployments. </p>
+            </div>
+            <footer> <ul className="tech-list"> <li> YOLOX </li> <li> Object Detection </li> <li> Data Augmentation </li> <li> TensorRT </li> </ul> </footer>
+          </div>
+        </ScrollAnimation>
+
+
 
       </div>
     </Container>
