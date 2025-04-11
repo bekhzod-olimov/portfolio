@@ -355,8 +355,8 @@ export function Project() {
                 </div>
             </header>
             <div className="body">
-              <h3>Manga2Webtoon using AI </h3>
-              <p> Embarking on a project to convert Japanese and Chinese manga into Korean Webtoons using AI involves several sequential steps. These include segmenting parts using semantic segmentation, applying color to the original grayscale images using image generation models, extracting text from speech bubbles using Optical Character Recognition (OCR), and more.  </p>
+              <h3>Licence Plate Detector from Image and Video </h3>
+              <p> Developed a License Plate Detector that accurately identifies license plates in both images and videos using a combination of object detection models and image processing techniques. The project includes real-time video frame analysis, bounding box visualization, and an interactive UI for uploading and testing various media formats.  </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Semantic Segmentation</li> <li>OCR</li> <li>Object Detection</li> </ul> </footer>
           </div>
