@@ -48,9 +48,7 @@ export function Project() {
                   <a href="https://github.com/bekhzod-olimov/Binary-Semantic-Segmentation" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
                   <a href="https://github.com/bekhzod-olimov/PersonSemanticSegmentation" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                  <a href="https://github.com/bekhzod-olimov/Semantic-Segmentation-Models-from-Scratch" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
+                  <img src={githubIcon} alt="Visit site" /></a>                  
                   <a href="https://github.com/bekhzod-olimov/Semantic-Segmentation-Models-from-Scratch" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
                 {/* <a href="https://link.springer.com/article/10.1007/s00530-020-00726-w" target="_blank" rel="noreferrer">
@@ -71,14 +69,16 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
-              <a href="https://drive.google.com/file/d/1dGANwOLx5tJ4cyUWY0pZ2QmxojFkGSHq/view?usp=sharing" target="_blank" rel="noreferrer">
-                  <img src={DownloadApp} alt="Visit site" /></a>
-                  <a href="https://drive.google.com/file/d/1ssEaKjByDLLINOGvPhHg2rWeSC5IGUsN/view?usp=sharing" target="_blank" rel="noreferrer">
-                  <img src={scholarIcon} alt="Visit site" /></a>
+                  <a href="https://github.com/bekhzod-olimov/ObjectDetectionSampleProjects" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a>                          
                   <a href="https://github.com/bekhzod-olimov/Object-Detection-with-YOLOv5" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                <a href="https://app.roboflow.com/bekhzod-olimov/disabled-sign-detection/1" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
+                  <a href="https://app.roboflow.com/bekhzod-olimov/disabled-sign-detection/1" target="_blank" rel="noreferrer">
+                  <img src={DownloadApp} alt="Visit site" />
+                  <a href="https://drive.google.com/file/d/1dGANwOLx5tJ4cyUWY0pZ2QmxojFkGSHq/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <img src={DownloadApp} alt="Visit site" /></a>
+                  <a href="https://drive.google.com/file/d/1ssEaKjByDLLINOGvPhHg2rWeSC5IGUsN/view?usp=sharing" target="_blank" rel="noreferrer">
+                  <img src={scholarIcon} alt="Visit site" /></a>                  
                 </a> </div>
             </header>
             <div className="body">
