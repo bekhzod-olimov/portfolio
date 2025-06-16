@@ -18,17 +18,7 @@ export function Project() {
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
               <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.6143" target="_blank" rel="noreferrer">
-                  <img src={scholarIcon} alt="Visit site" /></a>
-                  <a href="https://github.com/bekhzod-olimov/SportsBallClassification" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                  <a href="https://github.com/bekhzod-olimov/CT-Brain-Tumor-Classification" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                  <a href="https://github.com/bekhzod-olimov/BrainTumorClassification" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                  <a href="https://github.com/bekhzod-olimov/SportsImageClassification" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                  <a href="https://github.com/bekhzod-olimov/Korean-Tourist-Spots-Classification" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
+                  <img src={scholarIcon} alt="Visit site" /></a>                  
                   <a href="https://github.com/bekhzod-olimov/SportsBallClassification" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
                 <a href="https://github.com/bekhzod-olimov/Weight-Initialization-based-Rectified-Linear-Unit" target="_blank" rel="noreferrer">
