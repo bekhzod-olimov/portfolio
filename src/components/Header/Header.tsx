@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 import Resume from '../../assets/cv_simple.pdf'
+import KoreanResume from '../../assets/cv_simple_kor.pdf'
 export function Header() {
   const [isActive, setActive] = useState(false)
   function toggleTheme() {
@@ -47,7 +48,10 @@ export function Header() {
             Contact
           </NavHashLink>
           <a href={Resume} download className="button">
-            CV
+            CV          
+          </a>
+          <a href={KoreanResume} download className="button">
+          이력서          
           </a>
         </nav>
         <div
