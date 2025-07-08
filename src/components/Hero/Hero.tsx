@@ -12,7 +12,7 @@ import telegram from '../../assets/telegram.svg';
 import instagramIcon from '../../assets/instagram.svg'
 
 const images = [linkedin, kaggle, githubIcon, instagramIcon, kakao, telegram];
-const links = ["https://www.linkedin.com/in/bekhzod-olimov-doctor-of-engineering-33059bb1/", 
+const links = ["https://www.linkedin.com/in/bekhzod-olimov-phd-33059bb1/", 
 			   "https://www.kaggle.com/killa92", 
 			   "https://github.com/bekhzod-olimov", 
 			   "https://www.instagram.com/beki___oli/",
