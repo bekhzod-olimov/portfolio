@@ -10,7 +10,7 @@ import instagramIcon from '../../assets/instagram.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://www.linkedin.com/in/bekhzod-olimov-doctor-of-engineering-33059bb1/" className="logo">
+      <a href="https://www.linkedin.com/in/bekhzod-olimov-phd-33059bb1/" className="logo">
         <span>Information</span>
       </a>
       <div>
