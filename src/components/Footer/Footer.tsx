@@ -21,7 +21,7 @@ export function Footer() {
       </div>
       <div className="social-media">
       <a
-          href="https://www.linkedin.com/in/bekhzod-olimov-doctor-of-engineering-33059bb1/"
+          href="https://www.linkedin.com/in/bekhzod-olimov-phd-33059bb1/"
           target="_blank"
           rel="noreferrer"
         >
