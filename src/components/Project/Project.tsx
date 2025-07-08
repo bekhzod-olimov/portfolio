@@ -362,22 +362,20 @@ export function Project() {
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
-              {/* <div className="project-links"> */}
-              {/* <a href="https://licenceplatedetector-yophut2tkugx7rrmjfmmfd.streamlit.app/" target="_blank" rel="noreferrer">
+              <div className="project-links">
+              <a href="https://fashiondatagenerationcut-xwcz6ykvg9299mkrbu8tpg.streamlit.app/" target="_blank" rel="noreferrer">
                   <img src={DemoIcon} alt="Visit site" /></a>
-                  <a href="https://github.com/bekhzod-olimov/LicencePlateDetector" target="_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" /></a>
-                  <a href="https://drive.google.com/file/d/1nHjvTZ4L-cYj-BLYnh8YT8cJ4BAtaLJu/view?usp=sharing" target="_blank" rel="noreferrer">
-                  <img src={DownloadApp} alt="Visit site" /></a>
-                </div> */}
+                  <a href="https://github.com/bekhzod-olimov/FashionDataGenerationCUT" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a>                  
+                </div>
             </header>
             <div className="body">
               <h3>Image Generation Projects </h3>
-              <p> Coming soon...  </p>
+              <p> Developed several image generation models that generates images based on the user inputs. The results can be used for pseudo-labeling in segmentation datasets, address data imbalance problem by generating additional data for image classification tasks and so forth.  </p>
             </div>
-            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Image Generation</li> <li>Diffusion</li> <li>GAN</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Image Generation</li> <li>Diffusion Models</li> <li>GAN</li> </ul> </footer>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation>        
 
       </div>
     </Container>
