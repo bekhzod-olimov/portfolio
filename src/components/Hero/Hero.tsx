@@ -40,7 +40,7 @@ export function Hero() {
 					<h3>A Senior AI Engineer & Researcher</h3>
 				</ScrollAnimation>
 				<ScrollAnimation animateIn='fadeInUp' delay={0.6 * 1000}>
-					<p className='small-resume'>with 5+ years of experience in ML/DL</p>
+					<p className='small-resume'>with 6+ years of experience in AI (ML/DL)</p>
 				</ScrollAnimation>
 				<ScrollAnimation animateIn='fadeInUp' delay={0.8 * 1000}>
 					<BrowserRouter>
