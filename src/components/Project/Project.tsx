@@ -371,7 +371,7 @@ export function Project() {
             </header>
             <div className="body">
               <h3>Image Generation Projects </h3>
-              <p> Developed several image generation models that generates images based on the user inputs. The results can be used for pseudo-labeling in segmentation datasets, address data imbalance problem by generating additional data for image classification tasks and so forth.  </p>
+              <p> Developed a suite of advanced image generation models capable of producing images conditioned on user inputs. These models facilitate a range of downstream applications, including pseudo-labeling for segmentation datasets, addressing data imbalance in image classification, and broader data augmentation. </p>
             </div>
             <footer> <ul className="tech-list"> <li>PyTorch</li> <li>Image Generation</li> <li>Diffusion Models</li> <li>GAN</li> </ul> </footer>
           </div>
